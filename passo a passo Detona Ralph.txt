@@ -1,0 +1,45 @@
+Detona Ralph
+
+1. cria um arquivo html ex: index.html
+
+2. cria as pastas dos arquivos onde serao alocados os arquivos ex: audios, images, scripts, styles.
+
+3. dentro da pasta styles crie uma arquivo css chamado reset.css e dentro do arquivo adicione as seguintes configuracoes.
+
+* {
+  margin: 0;
+ padding: 0;
+box-sizing: border-box;
+}
+
+4. na pasta de style crie outro arquivo css chamado main ex: main.css
+
+5. no index.html crie um link para reset.css e main.css
+
+	ex: <link rel="stylesheet" href="./src/styles/reset.css">
+
+	e <link rel="stylesheet" href="./src/styles/main.css">
+
+6. no site google-font pesquise pela font Press Start 2P, e adicione no arquivo css.
+
+	ex: font-family: "Bebas Neue", sans-serif;
+	    font-family: "Press Start 2P", cursive;
+
+7. agora na pasta scripts crie um arquivo js chamado engine ex: engine.js e crie o link do mesmo no arquivo html dentro de body.
+
+	ex: <body>
+    
+    	     <script defer src="./src/scripts/engine.js"></script>
+	    </body>
+
+=============================================================
+
+# atalhos do html em vscode
+1. div.container - adiciona a div container eh a mesma coisa que a main.
+2. div.menu - adiciona a div menu para menu.
+3. div.panel - adiciona a div panel para painel.
+4. #dica boa, para adiciona mais de uma div digite,
+	ex: div.menu-time+div.menu-score+div.menu-lives
+
+	ex: .panel-row>.square[id="0"]*3 ele cria 3 panel row com 3 divs.
+
